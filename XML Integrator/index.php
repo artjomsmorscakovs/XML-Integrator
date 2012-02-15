@@ -9,13 +9,6 @@
 
 require_once 'lib/TheApplication.php';
 
-//@TODO to decide which option is better to use.
-//$conf = TheApplication::getInstance()->getConfig(); 
-$conf = TheApplication()->getConfig();
+$conf = TheApplication::getInstance(); 
 var_dump($conf);
 
-echo 'ok';
-
-function TheApplication(){
-	return TheApplication::getInstance();
-}
