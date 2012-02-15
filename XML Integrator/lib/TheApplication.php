@@ -9,9 +9,6 @@
 */
 
 require_once 'Autoloader.php';
-//@TODO This is a weak place. Need to decide how better to store configuration parameters. Is it .ini file or just a text file or like this.
-//require config in parent directory
-require_once DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'config.php';
 
 class TheApplication {
     private static $instance;

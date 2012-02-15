@@ -8,6 +8,7 @@
 */
 
 require_once 'lib/TheApplication.php';
+require_once 'config.php';
 
 $conf = TheApplication::getInstance(); 
 var_dump($conf);
