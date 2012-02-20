@@ -1,1 +1,1 @@
-N;
+a:3:{s:10:"XmliSchema";s:25:"lib/IntObj/XmliSchema.php";s:8:"XmliType";s:23:"lib/IntObj/XmliType.php";s:9:"XmliField";s:24:"lib/IntObj/XmliField.php";}

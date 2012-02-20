@@ -1,0 +1,7 @@
+Log opened at 2012-02-13 20:21:48
+-> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" fileuri="file:///F:/Projects/workspace/XML-Integrator/XML%20Integrator/index.php" language="PHP" protocol_version="1.0" appid="10888" session="13291645063101" idekey="ECLIPSE_DBGP"><engine version="2.1.0rc1"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[http://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2010 by Derick Rethans]]></copyright></init>
+
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+Log closed at 2012-02-13 20:21:48
+

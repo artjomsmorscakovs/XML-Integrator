@@ -22,7 +22,7 @@ class TheApplication {
     private function __construct(){
     	$this->config = new Config();
 		Autoloader::addClassPath($this->config->lib_path);
-		Autoloader::setCacheFilePath($this->config->class_cache_file);
+		Autoloader::setCacheFilePath($_SERVER["DOCUMENT_ROOT"].$this->config->class_cache_file);
 		spl_autoload_register(array('Autoloader', 'loadClass'));
     }
     

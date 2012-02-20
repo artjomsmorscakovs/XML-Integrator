@@ -9,5 +9,5 @@
 
 class Config{
 	public $lib_path = 'lib/';
-	public $class_cache_file = 'lib/cache/class_cache.txt';
+	public $class_cache_file = '/lib/cache/class_cache.txt';
 }
