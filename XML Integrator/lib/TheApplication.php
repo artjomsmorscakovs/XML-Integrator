@@ -20,10 +20,22 @@ class TheApplication {
      * Register Autoloader class
      */
     private function __construct(){
+    	//creating config
     	$this->config = new Config();
+    	
+    	//Initializing AutoLoader
 		Autoloader::addClassPath($this->config->lib_path);
 		Autoloader::setCacheFilePath($_SERVER["DOCUMENT_ROOT"].$this->config->class_cache_file);
 		spl_autoload_register(array('Autoloader', 'loadClass'));
+		
+		//checking for debug mode
+		if($this->config->debug) $this->debug();
+    }
+    
+    private function debug(){
+    	ini_set('error_reporting', E_ALL);
+		ini_set('display_errors', 'On');
+		ini_set('display_startup_errors', 'On');
     }
     
     /**

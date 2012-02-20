@@ -1,1 +1,1 @@
-a:3:{s:10:"XmliSchema";s:25:"lib/IntObj/XmliSchema.php";s:8:"XmliType";s:23:"lib/IntObj/XmliType.php";s:9:"XmliField";s:24:"lib/IntObj/XmliField.php";}
+a:7:{s:10:"XmliSchema";s:25:"lib/IntObj/XmliSchema.php";s:8:"XmliType";s:23:"lib/IntObj/XmliType.php";s:9:"XmliField";s:24:"lib/IntObj/XmliField.php";s:22:"XmliOneToOneMapElement";s:37:"lib/Mapper/XmliOneToOneMapElement.php";s:14:"XmliMapElement";s:29:"lib/Mapper/XmliMapElement.php";s:23:"XmliMapElementInterface";s:38:"lib/Mapper/XmliMapElementInterface.php";s:7:"XmliMap";s:22:"lib/Mapper/XmliMap.php";}
